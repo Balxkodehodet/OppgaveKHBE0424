@@ -34,14 +34,26 @@ class Program
                 - Lag noen enkle variabler av forksjellige primitive datatyper
                 - Forsøk å skrive ut verdiene som er tildelt variablene ved å bruke Console.WriteLine(); metoden.
         */
+        int integer = 12;
+        string setning = "Hei dette er en setning";
+        float tall = 12.0;
+        double tall2 = 12.222;
+        decimal tall3 = 12.2230320;
+        bool virkelig = false;
 
-
+        Console.WriteLine(integer);
+        Console.WriteLine(setning);
+        Console.WriteLine(tall);
+        Console.WriteLine(tall2);
+        Console.WriteLine(tall3);
+        Console.WriteLine(virkelig);
+         
         /*
             Oppgave 2:
                 - Forsøk å lage et array av forksjellige primitive datatyper.
                 - Forsøk å skrive ut verdiene som befinner seg i arrayet, ved å bruke en for-loop, eller en foreach-loop.
         */
-
+        
         /*
             Oppgave 3:
                 - Forsøk å tildele variabler til en generiske Liste: eksempel: List<int> integers = new List<int>();
